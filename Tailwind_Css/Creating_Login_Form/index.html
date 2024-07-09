@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="flex justify-center items-center font-semibold bg-slate-200 h-screen bg-red-100"
+    >
+      <div class="w-1/2 max-w-sm flex flex-col p-2">
+        <h1 class="text-2xl text-center">Sign in to your account</h1>
+        <div class="flex flex-col my-4">
+          <label for="email">Email address</label>
+          <input
+            placeholder="Enter Email"
+            id="email"
+            class="py-2 px-4 my-2 rounded"
+          />
+        </div>
+        <div class="flex flex-col">
+          <label for="Password">Password</label>
+          <input
+            placeholder="Enter Password"
+            id="Password"
+            class="py-2 px-4 my-2 rounded"
+          />
+        </div>
+        <button
+          class="bg-blue-400 text-white border-2 px-4 py-2 m-2 rounded-md hover:bg-transparent hover:text-blue-400 hover: border-blue-400"
+        >
+          Sign in
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
